@@ -64,17 +64,17 @@ final class CaptureActivityHandler extends Handler {
       state = State.CONTINUOUS;
 
       // Show the shutter and torch buttons
-      activity.setButtonVisibility(true);
+//      activity.setButtonVisibility(true);
       
       // Display a "be patient" message while first recognition request is running
-      activity.setStatusViewForContinuous();
+//      activity.setStatusViewForContinuous();
       
       restartOcrPreviewAndDecode();
     } else {
       state = State.SUCCESS;
       
       // Show the shutter and torch buttons
-      activity.setButtonVisibility(true);
+//      activity.setButtonVisibility(true);
       
       restartOcrPreview();
     }
@@ -82,45 +82,39 @@ final class CaptureActivityHandler extends Handler {
 
   @Override
   public void handleMessage(Message message) {
-    
-    switch (message.what) {
-      case R.id.restart_preview:
-        restartOcrPreview();
-        break;
-      case R.id.ocr_continuous_decode_failed:
-        DecodeHandler.resetDecodeState();        
-        try {
-          activity.handleOcrContinuousDecode((OcrResultFailure) message.obj);
-        } catch (NullPointerException e) {
-          Log.w(TAG, "got bad OcrResultFailure", e);
-        }
-        if (state == State.CONTINUOUS) {
-          restartOcrPreviewAndDecode();
-        }
-        break;
-      case R.id.ocr_continuous_decode_succeeded:
-        DecodeHandler.resetDecodeState();
-        try {
-          activity.handleOcrContinuousDecode((OcrResult) message.obj);
-        } catch (NullPointerException e) {
-          // Continue
-        }
-        if (state == State.CONTINUOUS) {
-          restartOcrPreviewAndDecode();
-        }
-        break;
-      case R.id.ocr_decode_succeeded:
-        state = State.SUCCESS;
-        activity.setShutterButtonClickable(true);
-        activity.handleOcrDecode((OcrResult) message.obj);
-        break;
-      case R.id.ocr_decode_failed:
-        state = State.PREVIEW;
-        activity.setShutterButtonClickable(true);
-        Toast toast = Toast.makeText(activity.getBaseContext(), "OCR failed. Please try again.", Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.TOP, 0, 0);
-        toast.show();
-        break;
+
+    if (message.what == R.id.restart_preview) {
+      restartOcrPreview();
+    } else if (message.what == R.id.ocr_continuous_decode_failed) {
+      DecodeHandler.resetDecodeState();
+      try {
+        activity.handleOcrContinuousDecode((OcrResultFailure) message.obj);
+      } catch (NullPointerException e) {
+        Log.w(TAG, "got bad OcrResultFailure", e);
+      }
+      if (state == State.CONTINUOUS) {
+        restartOcrPreviewAndDecode();
+      }
+    } else if (message.what == R.id.ocr_continuous_decode_succeeded) {
+      DecodeHandler.resetDecodeState();
+      try {
+        activity.handleOcrContinuousDecode((OcrResult) message.obj);
+      } catch (NullPointerException e) {
+        // Continue
+      }
+      if (state == State.CONTINUOUS) {
+        restartOcrPreviewAndDecode();
+      }
+    } else if (message.what == R.id.ocr_decode_succeeded) {
+      state = State.SUCCESS;
+//      activity.setShutterButtonClickable(true);
+      activity.handleOcrDecode((OcrResult) message.obj);
+    } else if (message.what == R.id.ocr_decode_failed) {
+      state = State.PREVIEW;
+//      activity.setShutterButtonClickable(true);
+      Toast toast = Toast.makeText(activity.getBaseContext(), "OCR failed. Please try again.", Toast.LENGTH_SHORT);
+      toast.setGravity(Gravity.TOP, 0, 0);
+      toast.show();
     }
   }
   
@@ -180,7 +174,7 @@ final class CaptureActivityHandler extends Handler {
    */
   private void restartOcrPreview() {    
     // Display the shutter and torch buttons
-    activity.setButtonVisibility(true);
+//    activity.setButtonVisibility(true);
 
     if (state == State.SUCCESS) {
       state = State.PREVIEW;
@@ -225,7 +219,7 @@ final class CaptureActivityHandler extends Handler {
    */
   void shutterButtonClick() {
     // Disable further clicks on this button until OCR request is finished
-    activity.setShutterButtonClickable(false);
+//    activity.setShutterButtonClickable(false);
     ocrDecode();
   }
 

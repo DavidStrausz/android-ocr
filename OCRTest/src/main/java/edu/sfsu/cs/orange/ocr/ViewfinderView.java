@@ -46,13 +46,13 @@ public final class ViewfinderView extends View {
   static final boolean DRAW_REGION_BOXES = false;
 
   /** Flag to draw boxes representing the results from TessBaseAPI::GetTextlines(). */
-  static final boolean DRAW_TEXTLINE_BOXES = true;
+  static final boolean DRAW_TEXTLINE_BOXES = false;
 
   /** Flag to draw boxes representing the results from TessBaseAPI::GetStrips(). */
   static final boolean DRAW_STRIP_BOXES = false;
 
   /** Flag to draw boxes representing the results from TessBaseAPI::GetWords(). */
-  static final boolean DRAW_WORD_BOXES = true;
+  static final boolean DRAW_WORD_BOXES = false;
 
   /** Flag to draw word text with a background varying from transparent to opaque. */
   static final boolean DRAW_TRANSPARENT_WORD_BACKGROUNDS = false;
@@ -93,7 +93,7 @@ public final class ViewfinderView extends View {
     frameColor = resources.getColor(R.color.viewfinder_frame);
     cornerColor = resources.getColor(R.color.viewfinder_corners);
 
-    //    bounds = new Rect();
+    // bounds = new Rect();
     previewFrame = new Rect();
     rect = new Rect();
   }
@@ -121,13 +121,10 @@ public final class ViewfinderView extends View {
 
     // If we have an OCR result, overlay its information on the viewfinder.
     if (resultText != null) {
-
       // Only draw text/bounding boxes on viewfinder if it hasn't been resized since the OCR was requested.
       Point bitmapSize = resultText.getBitmapDimensions();
       previewFrame = cameraManager.getFramingRectInPreview();
       if (bitmapSize.x == previewFrame.width() && bitmapSize.y == previewFrame.height()) {
-
-
         float scaleX = frame.width() / (float) previewFrame.width();
         float scaleY = frame.height() / (float) previewFrame.height();
 

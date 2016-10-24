@@ -1,0 +1,694 @@
+[
+    {
+        "outputFile": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 5,
+                    "endColumn": 16,
+                    "endOffset": 159
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\arrays.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 1,
+                        "startOffset": 643,
+                        "endLine": 20,
+                        "endColumn": 16,
+                        "endOffset": 750
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 164,
+                    "endLine": 40,
+                    "endColumn": 16,
+                    "endOffset": 1418
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\arrays.xml",
+                    "position": {
+                        "startLine": 166,
+                        "startColumn": 1,
+                        "startOffset": 5232,
+                        "endLine": 200,
+                        "endColumn": 16,
+                        "endOffset": 6520
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 1423,
+                    "endLine": 98,
+                    "endColumn": 16,
+                    "endOffset": 3551
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\arrays.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 1,
+                        "startOffset": 3023,
+                        "endLine": 163,
+                        "endColumn": 16,
+                        "endOffset": 5208
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 3556,
+                    "endLine": 156,
+                    "endColumn": 16,
+                    "endOffset": 4954
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\arrays.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 1,
+                        "startOffset": 1486,
+                        "endLine": 103,
+                        "endColumn": 16,
+                        "endOffset": 2941
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 4959,
+                    "endLine": 161,
+                    "endColumn": 19,
+                    "endOffset": 5098
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\arrays.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1146,
+                        "endLine": 38,
+                        "endColumn": 19,
+                        "endOffset": 1289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 162,
+                    "startColumn": 4,
+                    "startOffset": 5103,
+                    "endLine": 172,
+                    "endColumn": 19,
+                    "endOffset": 5469
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\arrays.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 758,
+                        "endLine": 32,
+                        "endColumn": 19,
+                        "endOffset": 1134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 173,
+                    "startColumn": 4,
+                    "startOffset": 5474,
+                    "endLine": 244,
+                    "endColumn": 16,
+                    "endOffset": 8037
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\arrays.xml",
+                    "position": {
+                        "startLine": 204,
+                        "startColumn": 1,
+                        "startOffset": 6685,
+                        "endLine": 275,
+                        "endColumn": 16,
+                        "endOffset": 9319
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 245,
+                    "startColumn": 4,
+                    "startOffset": 8042,
+                    "endLine": 288,
+                    "endColumn": 16,
+                    "endOffset": 9879
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\arrays.xml",
+                    "position": {
+                        "startLine": 354,
+                        "startColumn": 1,
+                        "startOffset": 11458,
+                        "endLine": 397,
+                        "endColumn": 16,
+                        "endOffset": 13338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 289,
+                    "startColumn": 4,
+                    "startOffset": 9884,
+                    "endLine": 360,
+                    "endColumn": 16,
+                    "endOffset": 11605
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\arrays.xml",
+                    "position": {
+                        "startLine": 279,
+                        "startColumn": 1,
+                        "startOffset": 9478,
+                        "endLine": 350,
+                        "endColumn": 16,
+                        "endOffset": 11270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 361,
+                    "startColumn": 4,
+                    "startOffset": 11610,
+                    "endLine": 404,
+                    "endColumn": 16,
+                    "endOffset": 12940
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\arrays.xml",
+                    "position": {
+                        "startLine": 401,
+                        "startColumn": 1,
+                        "startOffset": 13511,
+                        "endLine": 444,
+                        "endColumn": 16,
+                        "endOffset": 14884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 405,
+                    "startColumn": 4,
+                    "startOffset": 12945,
+                    "endLine": 408,
+                    "endColumn": 16,
+                    "endOffset": 13058
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\arrays.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 1,
+                        "startOffset": 1294,
+                        "endLine": 43,
+                        "endColumn": 16,
+                        "endOffset": 1410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 409,
+                    "startColumn": 4,
+                    "startOffset": 13063,
+                    "endColumn": 42,
+                    "endOffset": 13101
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 2,
+                        "startOffset": 1413,
+                        "endColumn": 40,
+                        "endOffset": 1451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 410,
+                    "startColumn": 4,
+                    "startOffset": 13106,
+                    "endColumn": 47,
+                    "endOffset": 13149
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 2,
+                        "startOffset": 1455,
+                        "endColumn": 45,
+                        "endOffset": 1498
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 411,
+                    "startColumn": 4,
+                    "startOffset": 13154,
+                    "endColumn": 48,
+                    "endOffset": 13198
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 2,
+                        "startOffset": 1502,
+                        "endColumn": 46,
+                        "endOffset": 1546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 412,
+                    "startColumn": 4,
+                    "startOffset": 13203,
+                    "endColumn": 47,
+                    "endOffset": 13246
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 2,
+                        "startOffset": 763,
+                        "endColumn": 45,
+                        "endOffset": 806
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 413,
+                    "startColumn": 4,
+                    "startOffset": 13251,
+                    "endColumn": 47,
+                    "endOffset": 13294
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 841,
+                        "endColumn": 45,
+                        "endOffset": 884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 414,
+                    "startColumn": 4,
+                    "startOffset": 13299,
+                    "endColumn": 47,
+                    "endOffset": 13342
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 2,
+                        "startOffset": 926,
+                        "endColumn": 45,
+                        "endOffset": 969
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 415,
+                    "startColumn": 4,
+                    "startOffset": 13347,
+                    "endColumn": 62,
+                    "endOffset": 13405
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 2,
+                        "startOffset": 1028,
+                        "endColumn": 60,
+                        "endOffset": 1086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 416,
+                    "startColumn": 4,
+                    "startOffset": 13410,
+                    "endColumn": 54,
+                    "endOffset": 13460
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 2,
+                        "startOffset": 1137,
+                        "endColumn": 52,
+                        "endOffset": 1187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 417,
+                    "startColumn": 4,
+                    "startOffset": 13465,
+                    "endColumn": 52,
+                    "endOffset": 13513
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 2,
+                        "startOffset": 1236,
+                        "endColumn": 50,
+                        "endOffset": 1284
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 418,
+                    "startColumn": 4,
+                    "startOffset": 13518,
+                    "endColumn": 51,
+                    "endOffset": 13565
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 2,
+                        "startOffset": 1318,
+                        "endColumn": 49,
+                        "endOffset": 1365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 420,
+                    "startColumn": 4,
+                    "startOffset": 13617,
+                    "endColumn": 35,
+                    "endOffset": 13648
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 2,
+                        "startOffset": 679,
+                        "endColumn": 33,
+                        "endOffset": 710
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 421,
+                    "startColumn": 4,
+                    "startOffset": 13653,
+                    "endColumn": 42,
+                    "endOffset": 13691
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 714,
+                        "endColumn": 40,
+                        "endOffset": 752
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 422,
+                    "startColumn": 4,
+                    "startOffset": 13696,
+                    "endColumn": 45,
+                    "endOffset": 13737
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 2,
+                        "startOffset": 756,
+                        "endColumn": 43,
+                        "endOffset": 797
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 423,
+                    "startColumn": 4,
+                    "startOffset": 13742,
+                    "endColumn": 50,
+                    "endOffset": 13788
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 803,
+                        "endColumn": 48,
+                        "endOffset": 849
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 424,
+                    "startColumn": 4,
+                    "startOffset": 13793,
+                    "endColumn": 57,
+                    "endOffset": 13846
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 2,
+                        "startOffset": 853,
+                        "endColumn": 55,
+                        "endOffset": 906
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 425,
+                    "startColumn": 4,
+                    "startOffset": 13851,
+                    "endColumn": 60,
+                    "endOffset": 13907
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 2,
+                        "startOffset": 910,
+                        "endColumn": 58,
+                        "endOffset": 966
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 426,
+                    "startColumn": 4,
+                    "startOffset": 13912,
+                    "endColumn": 39,
+                    "endOffset": 13947
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 2,
+                        "startOffset": 970,
+                        "endColumn": 37,
+                        "endOffset": 1005
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 427,
+                    "startColumn": 4,
+                    "startOffset": 13952,
+                    "endColumn": 46,
+                    "endOffset": 13994
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 2,
+                        "startOffset": 1009,
+                        "endColumn": 44,
+                        "endOffset": 1051
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 428,
+                    "startColumn": 4,
+                    "startOffset": 13999,
+                    "endColumn": 49,
+                    "endOffset": 14044
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 2,
+                        "startOffset": 1055,
+                        "endColumn": 47,
+                        "endOffset": 1100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 429,
+                    "startColumn": 4,
+                    "startOffset": 14049,
+                    "endColumn": 33,
+                    "endOffset": 14078
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 2,
+                        "startOffset": 1108,
+                        "endColumn": 31,
+                        "endOffset": 1137
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 430,
+                    "startColumn": 4,
+                    "startOffset": 14083,
+                    "endColumn": 44,
+                    "endOffset": 14123
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 2,
+                        "startOffset": 1141,
+                        "endColumn": 42,
+                        "endOffset": 1181
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 431,
+                    "startColumn": 4,
+                    "startOffset": 14128,
+                    "endColumn": 47,
+                    "endOffset": 14171
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 828,
+                        "endColumn": 47,
+                        "endOffset": 871
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 432,
+                    "startColumn": 4,
+                    "startOffset": 14176,
+                    "endColumn": 40,
+                    "endOffset": 14212
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 681,
+                        "endColumn": 40,
+                        "endOffset": 717
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 433,
+                    "startColumn": 4,
+                    "startOffset": 14217,
+                    "endColumn": 103,
+                    "endOffset": 14316
+                },
+                "from": {
+                    "file": "C:\\Users\\V_dstraus\\Desktop\\hot-app\\hot\\platforms\\android\\OCRTest\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 723,
+                        "endColumn": 103,
+                        "endOffset": 822
+                    }
+                }
+            }
+        ]
+    }
+]

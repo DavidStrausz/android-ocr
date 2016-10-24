@@ -24,8 +24,6 @@ import android.preference.ListPreference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 import edu.sfsu.cs.orange.ocr.language.LanguageCodeHelper;
-import edu.sfsu.cs.orange.ocr.language.TranslatorBing;
-import edu.sfsu.cs.orange.ocr.language.TranslatorGoogle;
 
 /**
  * Class to handle preferences that are saved across sessions of the app. Shows
@@ -71,19 +69,11 @@ public class PreferencesActivity extends PreferenceActivity implements
   private ListPreference listPreferencePageSegmentationMode;
   
   private static SharedPreferences sharedPreferences;
-  
-  /**
-   * Set the default preference values.
-   * 
-   * @param Bundle
-   *            savedInstanceState the current Activity's state, as passed by
-   *            Android
-   */
+
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    addPreferencesFromResource(R.xml.preferences);
-    
+
     sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
     
     listPreferenceSourceLanguage = (ListPreference) getPreferenceScreen().findPreference(KEY_SOURCE_LANGUAGE_PREFERENCE);
@@ -93,10 +83,6 @@ public class PreferencesActivity extends PreferenceActivity implements
     editTextPreferenceCharacterBlacklist = (EditTextPreference) getPreferenceScreen().findPreference(KEY_CHARACTER_BLACKLIST);
     editTextPreferenceCharacterWhitelist = (EditTextPreference) getPreferenceScreen().findPreference(KEY_CHARACTER_WHITELIST);
     listPreferencePageSegmentationMode = (ListPreference) getPreferenceScreen().findPreference(KEY_PAGE_SEGMENTATION_MODE);
-    
-    // Create the entries/entryvalues for the translation target language list.
-    initTranslationTargetList();
-    
   }
   
   /**
@@ -160,52 +146,6 @@ public class PreferencesActivity extends PreferenceActivity implements
       
     }
     
-    // Update the languages available for translation based on the current translator selected.
-    if (key.equals(KEY_TRANSLATOR)) {
-      initTranslationTargetList();
-    }
-    
-  }
-
-  /**
-   * Sets the list of available languages and the current target language for translation. Called
-   * when the key for the current translator is changed.
-   */
-  void initTranslationTargetList() {
-    // Set the preference for the target language code, in case we've just switched from Google
-    // to Bing, or Bing to Google.
-    String currentLanguageCode = sharedPreferences.getString(KEY_TARGET_LANGUAGE_PREFERENCE, 
-        CaptureActivity.DEFAULT_TARGET_LANGUAGE_CODE);
-
-    // Get the name of our language
-    String currentLanguage = LanguageCodeHelper.getTranslationLanguageName(getBaseContext(), 
-        currentLanguageCode);
-    String[] translators = getResources().getStringArray(R.array.translators);
-    String translator = sharedPreferences.getString(KEY_TRANSLATOR, CaptureActivity.DEFAULT_TRANSLATOR);
-    String newLanguageCode = "";
-    if (translator.equals(translators[0])) { // Bing
-      // Update the list of available languages for the currently-chosen translation API.
-      listPreferenceTargetLanguage.setEntries(R.array.translationtargetlanguagenames_microsoft);
-      listPreferenceTargetLanguage.setEntryValues(R.array.translationtargetiso6391_microsoft);
-      
-      // Get the corresponding code for our language name
-      newLanguageCode = TranslatorBing.toLanguage(currentLanguage);
-    } else if (translator.equals(translators[1])) { // Google
-      // Update the list of available languages for the currently-chosen translation API.
-      listPreferenceTargetLanguage.setEntries(R.array.translationtargetlanguagenames_google);
-      listPreferenceTargetLanguage.setEntryValues(R.array.translationtargetiso6391_google);
-      
-      // Get the corresponding code for our language name      
-      newLanguageCode = TranslatorGoogle.toLanguage(currentLanguage);
-    }
-
-    // Store the code as the target language preference
-    String newLanguageName = LanguageCodeHelper.getTranslationLanguageName(getBaseContext(),
-        newLanguageCode);
-    listPreferenceTargetLanguage.setValue(newLanguageName); // Set the radio button in the list
-    sharedPreferences.edit().putString(PreferencesActivity.KEY_TARGET_LANGUAGE_PREFERENCE, 
-        newLanguageCode).commit();
-    listPreferenceTargetLanguage.setSummary(newLanguageName);
   }
   
   /**

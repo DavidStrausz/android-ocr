@@ -17,8 +17,6 @@
 
 package edu.sfsu.cs.orange.ocr;
 
-import edu.sfsu.cs.orange.ocr.BeepManager;
-
 import com.googlecode.leptonica.android.Pixa;
 import com.googlecode.leptonica.android.ReadFile;
 import com.googlecode.tesseract.android.TessBaseAPI;
@@ -41,7 +39,6 @@ final class DecodeHandler extends Handler {
   private final CaptureActivity activity;
   private boolean running = true;
   private final TessBaseAPI baseApi;
-  private BeepManager beepManager;
   private Bitmap bitmap;
   private static boolean isDecodePending;
   private long timeRequired;
@@ -49,8 +46,6 @@ final class DecodeHandler extends Handler {
   DecodeHandler(CaptureActivity activity) {
     this.activity = activity;
     baseApi = activity.getBaseApi();
-    beepManager = new BeepManager(activity);
-    beepManager.updatePrefs();
   }
 
   @Override
@@ -58,41 +53,20 @@ final class DecodeHandler extends Handler {
     if (!running) {
       return;
     }
-    switch (message.what) {        
-    case R.id.ocr_continuous_decode:
+    if (message.what == R.id.ocr_continuous_decode) {
       // Only request a decode if a request is not already pending.
       if (!isDecodePending) {
         isDecodePending = true;
         ocrContinuousDecode((byte[]) message.obj, message.arg1, message.arg2);
       }
-      break;
-    case R.id.ocr_decode:
-      ocrDecode((byte[]) message.obj, message.arg1, message.arg2);
-      break;
-    case R.id.quit:
+    } else if (message.what == R.id.quit) {
       running = false;
       Looper.myLooper().quit();
-      break;
     }
   }
 
   static void resetDecodeState() {
     isDecodePending = false;
-  }
-
-  /**
-   *  Launch an AsyncTask to perform an OCR decode for single-shot mode.
-   *  
-   * @param data Image data
-   * @param width Image width
-   * @param height Image height
-   */
-  private void ocrDecode(byte[] data, int width, int height) {
-    beepManager.playBeepSoundAndVibrate();
-    activity.displayProgressDialog();
-    
-    // Launch OCR asynchronously, so we get the dialog box displayed immediately
-    new OcrRecognizeAsyncTask(activity, baseApi, data, width, height).execute();
   }
 
   /**

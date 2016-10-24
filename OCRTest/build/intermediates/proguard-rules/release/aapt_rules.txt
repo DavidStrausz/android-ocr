@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:42
+-keep class edu.sfsu.cs.orange.ocr.CaptureActivity { <init>(...); }
+
+# view res/layout/capture.xml #generated:26
+-keep class edu.sfsu.cs.orange.ocr.ViewfinderView { <init>(...); }
+
+# onClick res/layout/capture.xml #generated:48
+-keepclassmembers class * { *** abort(...); }
+

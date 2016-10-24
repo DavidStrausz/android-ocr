@@ -1,0 +1,34 @@
+edu.sfsu.cs.orange.ocr.CaptureActivity:
+    static final java.lang.String DOWNLOAD_BASE
+    static final java.lang.String OSD_FILENAME
+    static final java.lang.String OSD_FILENAME_BASE
+    static final int MINIMUM_MEAN_CONFIDENCE
+edu.sfsu.cs.orange.ocr.CaptureActivityHandler:
+    223:224:void shutterButtonClick()
+edu.sfsu.cs.orange.ocr.ViewfinderView:
+    static final boolean DRAW_REGION_BOXES
+    static final boolean DRAW_TEXTLINE_BOXES
+    static final boolean DRAW_STRIP_BOXES
+    static final boolean DRAW_WORD_BOXES
+    static final boolean DRAW_TRANSPARENT_WORD_BACKGROUNDS
+    static final boolean DRAW_CHARACTER_BOXES
+    static final boolean DRAW_WORD_TEXT
+    static final boolean DRAW_CHARACTER_TEXT
+    private java.lang.String[] words
+    private java.util.List regionBoundingBoxes
+    private java.util.List textlineBoundingBoxes
+    private java.util.List stripBoundingBoxes
+    private java.util.List wordBoundingBoxes
+    private java.util.List characterBoundingBoxes
+edu.sfsu.cs.orange.ocr.camera.AutoFocusManager:
+    private static final long AUTO_FOCUS_INTERVAL_MS
+edu.sfsu.cs.orange.ocr.camera.CameraConfigurationManager:
+    private static final java.lang.String TAG
+    private static final int MIN_PREVIEW_PIXELS
+    private static final int MAX_PREVIEW_PIXELS
+    130:140:void setTorch(android.hardware.Camera,boolean)
+edu.sfsu.cs.orange.ocr.camera.CameraManager:
+    private static final int MIN_FRAME_WIDTH
+    private static final int MIN_FRAME_HEIGHT
+    private static final int MAX_FRAME_WIDTH
+    private static final int MAX_FRAME_HEIGHT
